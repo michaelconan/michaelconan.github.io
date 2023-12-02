@@ -7,7 +7,9 @@ title: Home
 ---
 
 ## About Me
-I'm Michael Conan, a technology consultant for PricewaterhouseCoopers (PwC), currently based in Dublin, Ireland.
+I'm Michael Conan - born and raised in Portland, Oregon and now living in Dublin, Ireland. 
+
+I currently work as a technology consultant for PricewaterhouseCoopers (PwC) in the Dublin Data & Analytics practice.
 
 
 ## Skills and Technologies
