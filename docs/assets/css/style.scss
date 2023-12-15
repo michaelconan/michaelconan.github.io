@@ -1,0 +1,26 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.my-button {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #159957; /* A green shade */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+
+    /* Adding a box-shadow for a subtle depth effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.my-button:hover, .my-button:focus {
+    background-color: #0c7b43; /* A darker green for hover/focus */
+    text-decoration: none;
+    color: white;
+}
