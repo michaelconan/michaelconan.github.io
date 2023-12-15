@@ -22,7 +22,7 @@ title: The Conan Channel
 # email: 
 description: >-
   Michael Conan's personal site to share updates on life,
-  travel, and personal programming projects
+  travel, and programming projects
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://michaelconan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  michaelconan
