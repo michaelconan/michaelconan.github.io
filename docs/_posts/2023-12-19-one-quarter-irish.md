@@ -1,6 +1,7 @@
 ---
 # layout: post
 title:  "One Quarter Irish 🍀"
+description: Background and highlights from our recent move to Ireland
 date:   2023-12-19 19:33:24 +0000
 categories: ireland
 ---
