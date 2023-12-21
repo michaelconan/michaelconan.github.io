@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: The Conan Channel
+title: Clan Conan
 ---
 
 ## About Me
@@ -11,7 +11,9 @@ I'm Michael Conan - born and raised in Portland, Oregon and now living in Dublin
 
 I currently work as a technology consultant for PricewaterhouseCoopers (PwC) in the Dublin Data & Analytics practice.
 
-[Profile](/profile){: .my-button}
+<!-- May bring this in later
+[Profile](/profile){: .my-button} 
+-->
 
 ## Blog Posts
 {% for post in site.posts %}
