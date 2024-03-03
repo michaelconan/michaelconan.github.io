@@ -7,6 +7,7 @@ My personal site, developed using Jekyll / Ruby and GitHub Pages.
 Reminders to help with build and/or guide others.
 
 - [Navigation guidance](https://planetjekyll.github.io/snippets/nav-with-data) - adapted to horizontal header bar
+- [Github metadata usage](https://jekyll.github.io/github-metadata/site.github/)
 
 ### Local Testing
 
