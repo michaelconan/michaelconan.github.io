@@ -1,1 +1,18 @@
 <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+
+<!-- Navigation bar from _data/navigation.yml definition -->
+<nav class="page-navigation" aria-label="Page navigation">
+  <ul>
+    {% for nav in site.data.navigation %}
+      {% if nav.title == page.title or (nav.title == "Home" and page.url == "/") %}
+         <li class="active">
+           <a href="{{ nav.url }}">{{ nav.title }}</a>
+         </li>
+      {% else %}
+        <li>
+          <a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>
