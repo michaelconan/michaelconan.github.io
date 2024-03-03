@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+.page-header {
+  padding: 10px 4rem;
+}
+
 .my-button {
     display: inline-block;
     padding: 8px 20px;
@@ -23,4 +27,36 @@
     background-color: #0c7b43; /* A darker green for hover/focus */
     text-decoration: none;
     color: white;
+}
+
+.page-navigation {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 10px;
+  background-color: #333;
+}
+
+.page-navigation ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.page-navigation li {
+  margin-right: 15px;
+  list-style-type: none;
+}
+
+.page-navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.page-navigation a:hover {
+  text-decoration: underline;
+}
+
+.page-navigation .active {
+  font-weight: bold;
 }

@@ -10,13 +10,15 @@ function onFormSubmit(e) {
   // Connect to linked form
   const ss = SpreadsheetApp.getActive();
   const form = FormApp.openByUrl(ss.getFormUrl());
+  console.log(JSON.stringify(e.namedValues));
 
   // Get full response data from latest submission
-  const response = form
-    .getResponses()
-    .filter(
-      (r) => r.getTimestamp().getTime() === e.namedValues.Timestamp.getTime()
-    )[0];
+  const timestamp = parseEuroDate_(e.namedValues.Timestamp[0]);
+  const response = form.getResponses().filter(
+    // Rounding in event object and using Utilities.formatDate are inconsistent
+    // This method will perform the comparison with a threshold of 1 second
+    (r) => Math.abs(timestamp.getTime() - r.getTimestamp().getTime()) < 1000,
+  )[0];
 
   // Structure relevant data
   const responseData = [
@@ -28,7 +30,7 @@ function onFormSubmit(e) {
     response
       .getItemResponses()
       .filter(
-        (i) => i.getItem().getType() === FormApp.ItemType.MULTIPLE_CHOICE
+        (i) => i.getItem().getType() === FormApp.ItemType.MULTIPLE_CHOICE,
       )[0]
       .getResponse(),
     false, // Whether subscription approved
@@ -52,9 +54,16 @@ function onFormSubmit(e) {
       .getRange(currentSub[0][1] + 1, 1, 1, responseData.length - 1)
       .setValues([responseData.slice(0, -1)]);
   } else {
-    console.log('Identified existing subscription, performing insert');
+    console.log('No existing subscription, performing insert');
     // Add new row
     subSheet.appendRow(responseData);
+    // Apply checkbox formatting
+    const checkbox = SpreadsheetApp.newDataValidation()
+      .requireCheckbox()
+      .build();
+    subSheet
+      .getRange(subSheet.getDataRange().getLastRow(), 6)
+      .setDataValidation(checkbox);
     // Notify owner to approve subscription
     MailApp.sendEmail({
       to: Session.getEffectiveUser().getEmail(),
@@ -87,12 +96,44 @@ function testFormSubmit() {
   const form = FormApp.openByUrl(ss.getFormUrl());
 
   // Get first timestamp value
-  const timestamp = form.getResponses()[0].getTimestamp();
+  const formTimestamp = form.getResponses()[1].getTimestamp();
+  const timestamp = ss
+    .getSheetByName('Form responses 1')
+    .getDataRange()
+    .getValues()
+    .slice(1)[0][0];
+  const dateString = Utilities.formatDate(
+    timestamp,
+    'Europe/Dublin',
+    'dd/MM/yyyy HH:mm:ss',
+  );
+  const formDateString = Utilities.formatDate(
+    formTimestamp,
+    'Europe/Dublin',
+    'dd/MM/yyyy HH:mm:ss',
+  );
+  console.log(dateString, formDateString);
 
   // Run function with test value
   onFormSubmit({
     namedValues: {
-      Timestamp: timestamp,
+      Timestamp: [dateString],
     },
   });
+}
+
+/**
+ * Helper function to parse European format date
+ *  following the convention dd/MM/yyyy HH:mm:ss
+ * @param {string} dateString - string in specified format
+ * @return {Date} parsed date object
+ */
+function parseEuroDate_(dateString) {
+  // Split date and time components
+  const dateTime = dateString.split(' ');
+  // Split components of date
+  const dateParts = dateTime[0].split('/');
+  return new Date(
+    `${dateParts[1]}-${dateParts[0]}-${dateParts[2]} ${dateTime[1]}`,
+  );
 }

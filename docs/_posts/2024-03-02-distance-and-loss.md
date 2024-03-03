@@ -1,18 +1,20 @@
 ---
 # layout: post
-title:  "Distance and Loss"
+title: 'Distance and Loss'
 description: The challenges of being away from those people and activities that you love
-date:   2024-03-02 14:00:00 +0000
+date: 2024-03-02 14:00:00 +0000
 categories: life
 ---
 
 We're nearing the 6 month mark living in Ireland. The experience is grand, but reality has begun to sink in.
 
 #### Skiing in Europe
-I left my latest post with promises of stories from travel and skiing, including a rather optimistic outlook on the European ski season following some early snowfall. Unfortunately, winter weather patterns across the continent had other plans. 
+
+I left my latest post with promises of stories from travel and skiing, including a rather optimistic outlook on the European ski season following some early snowfall. Unfortunately, winter weather patterns across the continent had other plans.
 (Effectively) all of my life I've lived in Oregon, no more than a 3 hour drive from a proper ski resort. I have often travelled with family or friends to other locations across the country and world, but have never had to rely on these trips to satisfy my longing to fly down the mountain on a pair of planks. I knew in my mind that moving to Europe (particularly Ireland) would require a sacrifice in my ski regime, but the lived experience has been particularly challenging.
 
 #### Attempt 1: The Dolomites
+
 Toward the end of last ski season, with the move to Ireland in progress but not confirmed, we decided to purchase the Ikon Pass - a multi-resort ski pass providing a limited number of included days at resorts primarily in North America, but also across the world. A basic level of research would have uncovered the financial folly of this decision, as day passes to even the nicest of European resorts are often closer to €50 unlike the $150 prices common in the United States.
 
 While our purchase may not have saved us any money, it did give us a short list of resorts to target for our season - the first of which we selected was the 12-resort, 450-chairlift conglomorite of Ski Dolomiti in northern Italy. The Dolomites are known for their beauty, and the ski towns are... bougie.
@@ -32,6 +34,7 @@ We made the most of the wet days, alternating ski runs with breaks for coffee, b
 </figure>
 
 #### Attempt 2: Andorra
+
 After our unfortunate conditions in Italy, we were hoping and praying for better on our second trip to a country we'd hardly heard of: Andorra. It's a tiny, shared principality between France and Spain, known for low taxes and ski resorts. In a word: **paradise**.
 
 We were quickly mesmerised by the lovely architecture, friendly people and general affordability of the country. We again began our trip with clear weather before a storm rolling in, but this time it stayed cold and we had a few ski days with great conditions. We stayed in a small town in northern Andorra called Arinsal, near one of the smaller ski resorts included in the Grandvallira resorts networked covered by our pass. We also spent one day skiing at Grandvallira proper, a much larger resort we intend to return to and explore further in the future.
@@ -49,6 +52,7 @@ Outside of skiing, we spent a lovely afternoon in the capital city of Andorra La
 </figure>
 
 #### Loss of a Loved One
+
 In January of this year, my Aunt learned that the cause of a number of recent physical challenges was Stage 4 Cancer. It was clear that the situation was serious, but it did not appear unusual and we expected her to undergo treatment for some period of time with a reasonable possibility of recovery. Living across the world, we followed the updates from friends and family as she began treatment, experienced complications and was placed in critical care. About a month after learning that she was sick, her battle was lost.
 
 My Aunt Kim was an amazing person and we will miss her dearly.
@@ -61,8 +65,5 @@ When we decided to move abroad, we expected to miss some things back home. Time 
 </figure>
 
 #### Coming Soon
+
 In the next few months we have trips planned around Ireland and to Europe, friends and family visiting, and plenty more to explore. We'll share more updates, stories and photos in the future!
-
----
-
-[Home](/)
