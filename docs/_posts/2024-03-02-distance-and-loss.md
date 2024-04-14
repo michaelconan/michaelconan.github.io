@@ -1,8 +1,8 @@
 ---
 # layout: post
 title: 'Distance and Loss'
-description: The challenges of being away from those people and activities that you love
-date: 2024-03-02 14:00:00 +0000
+description: 'The challenges of being away from those people and activities that you love'
+date: '2024-03-02 14:00:00 +0000'
 categories: life
 ---
 

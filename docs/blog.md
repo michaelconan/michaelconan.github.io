@@ -14,7 +14,11 @@ Sharing about travel, life and projects! Just for fun and on no defined schedule
     <ul>
     {% for post in site.categories[category_name] %}
       <li>
-        <h3><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}} | {{ post.date | date: "%d %b %Y" }}</a></h3>
+        <h3>
+          <a href="{{ site.baseurl }}{{ post.url }}" target="_top">
+            {{post.title}} | {{ post.date | date: "%d %b %Y" }}
+          </a>
+        </h3>
         <p>{{post.excerpt}}</p>
       </li>
     {% endfor %}

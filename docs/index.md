@@ -11,4 +11,4 @@ I currently work as a technology consultant for PricewaterhouseCoopers (PwC) in 
 
 Keep up with our life and travels by subscribing to my blog!
 
-[Blog](/blog/){: .my-button}
+[Blog](/blog){: .my-button target="_top"}

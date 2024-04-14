@@ -1,0 +1,27 @@
+projects:
+  topics:
+  - python
+  - powerbi
+  - appsscript
+  - uipath
+  - robocorp
+  - mulesoft
+  - salesforce
+  - pages
+profiles:
+- title: 'linkedin'
+  id: 'michaelconan'
+  href: 'https://linkedin.com/in/'
+  icon: 'fa-brands fa-linkedin'
+- title: 'credly'
+  id: 'michaelconan'
+  href: 'https://www.credly.com/users/'
+  icon: 'fa-solid fa-certificate'
+- title: 'salesforce'
+  id: 'mconan1'
+  href: 'https://www.salesforce.com/trailblazer/'
+  icon: 'fa-brands fa-salesforce'
+- title: 'microsoft'
+  id: 'michaelconan-8488'
+  href: 'https://learn.microsoft.com/en-us/users/'
+  icon: 'fa-brands fa-microsoft'
