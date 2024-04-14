@@ -1,8 +1,8 @@
 ---
 # layout: post
 title: 'Welcome to Clan Conan!'
-description: Introduction to my site and blog
-date: 2023-12-02 15:46:24 +0000
+description: 'Introduction to my site and blog'
+date: '2023-12-02 15:46:24 +0000'
 categories: intro
 ---
 
