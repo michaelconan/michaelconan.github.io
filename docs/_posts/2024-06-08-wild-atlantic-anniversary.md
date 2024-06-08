@@ -23,7 +23,7 @@ This will be one of the longer posts as I'll break down the trip day-by-day.
 </div>
 <figure>
   <figcaption>Headed south to Cork to begin our trip</figcaption>
-  <img src="/assets/blog/fiat-500.jpg" alt="Rental Fiat 500" style="width:30%;">
+  <img src="/assets/blog/rental-fiat.jpg" alt="Rental Fiat 500" style="width:30%;">
   <img src="/assets/blog/rock-of-cashel.jpg" alt="Rock of Cashel" style="width:50%;">
 </figure>
 
