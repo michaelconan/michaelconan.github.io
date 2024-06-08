@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Profile
+description: 'Overview of my work experience and skills'
 ---
 
 ## Background

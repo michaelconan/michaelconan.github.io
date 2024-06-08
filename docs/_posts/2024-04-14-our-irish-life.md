@@ -2,7 +2,6 @@
 # layout: post
 title: 'Our Irish Life'
 description: "A bit about the life we've created in the months since moving to Dublin"
-date: '2024-04-14 15:00:00 +0000'
 categories: life
 ---
 
@@ -10,7 +9,7 @@ Moving somewhere new is hard. Take a look inside the life we're creating in Dubl
 
 In previous posts, I have shared a bit about our move, recent travels, and some early Irish experiences. This time, I'll be sharing more about the main facets of our life since moving to Europe.
 
-#### Work
+## Work
 
 Career opportunities were not our primary motivation for moving to Ireland. However, it was work that sponsored our relocation, and work is how we spend a large proportion of our waking hours, even if the working week is 36.5 hours rather than the American 40 (or 50 or 60 or 83) and public holidays seem to occur every other week. We both work for the same companies that we did in the US, but there have been a few notable changes in our working lives.
 
@@ -20,7 +19,7 @@ Projects: While PwC Ireland is not one of the larger firms in the global network
 
 Culture: The work culture in many ways reflects Irish society and culture at large. Compared to the US, there is less pressure to work extra hours and meet crazy deadlines, and a much stronger emphasis on relationships. The alternative side of this focus is that things often take longer to be completed, and the quality of work produced can suffer. Given the lower level of pay in Ireland despite a similar cost of living, I can certainly relate to a lower level of motivation and an expectation that proper work-life balance is afforded.
 
-#### Church
+## Church
 
 Since shortly after graduating from university, I have been involved in church, community groups and other faith-based activities. This has been a very important part of my life and something I wanted to continue after moving to Dublin.
 
@@ -33,7 +32,7 @@ Through the church I have also learned about PwC's own Christian network, which 
   <figcaption>Gathering with our City Church community for food and games</figcaption>
 </figure>
 
-#### Sport(s)
+## Sport(s)
 
 One thing we've appreciated about Ireland is their love of sport. Not only do they enjoy supporting their regional and national teams, but many Irish of all ages participate in sport recreationally themselves.
 
@@ -46,6 +45,6 @@ We decided it would be great to join in ourselves, and signed up for a social ta
 
 In addition to taking the field ourselves, we've continued to attend sporting events live. In the last month we attended a women's 6 nations match and 2 Leinster rugby matches in the Champion's Cup, a mostly European league that includes some of the best teams in global rugby. With those 2 wins, Leinster will play the semi-finals in Dublin at Croke park, a stadium that is typically reserved for traditional Irish (Gaelic) sports like Gaelic Football and Hurling.
 
-#### Next Up
+## Next Up
 
 In the next post I will share a bit about our latest travels, the visitors we have hosted and whatever else we have going on!
