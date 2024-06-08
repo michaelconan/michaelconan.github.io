@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Projects
+description: 'Summary of programming work I have completed and published'
 ---
 
 ## Projects
