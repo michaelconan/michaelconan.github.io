@@ -13,49 +13,8 @@
   async
   src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"
 ></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
 
-  // Initialize consent mode
-  gtag('consent', 'default', {
-    ad_storage: 'denied',
-    analytics_storage: 'denied',
-  });
-
-  // Function to update consent
-  function updateConsent(adConsent, analyticsConsent) {
-    gtag('consent', 'update', {
-      ad_storage: adConsent ? 'granted' : 'denied',
-      analytics_storage: analyticsConsent ? 'granted' : 'denied',
-    });
-  }
-
-  gtag('js', new Date());
-
-  gtag('config', '{{ site.google_analytics }}', { anonymize_ip: true });
-
-  // Placeholder for user consent interaction
-  document.addEventListener('DOMContentLoaded', function () {
-    var consentBanner = document.getElementById('consent-banner');
-    var acceptButton = document.getElementById('consent-accept');
-    var rejectButton = document.getElementById('consent-reject');
-
-    if (consentBanner) {
-      acceptButton.addEventListener('click', function () {
-        updateConsent(true, true);
-        consentBanner.style.display = 'none';
-      });
-
-      rejectButton.addEventListener('click', function () {
-        updateConsent(false, false);
-        consentBanner.style.display = 'none';
-      });
-    }
-  });
-</script>
+{% include google-analytics.html %}
 
 <!-- Navigation bar from _data/navigation.yml definition -->
 <nav class="page-navigation" aria-label="Page navigation">

@@ -1,0 +1,58 @@
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  // Initialize consent mode
+  gtag('consent', 'default', {
+    ad_storage: 'denied',
+    analytics_storage: 'denied',
+  });
+
+  // Function to update consent
+  function updateConsent(adConsent, analyticsConsent) {
+    gtag('consent', 'update', {
+      ad_storage: adConsent ? 'granted' : 'denied',
+      analytics_storage: analyticsConsent ? 'granted' : 'denied',
+    });
+    localStorage.setItem(
+      'consent',
+      JSON.stringify({
+        adConsent: adConsent,
+        analyticsConsent: analyticsConsent,
+      }),
+    );
+  }
+
+  gtag('js', new Date());
+
+  gtag('config', '{{ site.google_analytics }}', { anonymize_ip: true });
+
+  // Check consent status on page load
+  document.addEventListener('DOMContentLoaded', function () {
+    var consent = JSON.parse(localStorage.getItem('consent'));
+    if (consent) {
+      updateConsent(consent.adConsent, consent.analyticsConsent);
+    } else {
+      // Show consent banner if no consent status is stored
+      document.getElementById('consent-banner').style.display = 'block';
+    }
+  });
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var consentBanner = document.getElementById('consent-banner');
+    var acceptButton = document.getElementById('consent-accept');
+    var rejectButton = document.getElementById('consent-reject');
+
+    acceptButton.addEventListener('click', function () {
+      updateConsent(true, true);
+      consentBanner.style.display = 'none';
+    });
+
+    rejectButton.addEventListener('click', function () {
+      updateConsent(false, false);
+      consentBanner.style.display = 'none';
+    });
+  });
+</script>
