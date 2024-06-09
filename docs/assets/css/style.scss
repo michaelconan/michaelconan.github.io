@@ -66,3 +66,27 @@
   font-size:32px;
   padding-left: 25px;
 }
+
+/** Consent Styles */
+#consent-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  z-index: 1000;
+}
+#consent-banner button {
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+#consent-banner button#consent-reject {
+  background-color: #f44336;
+}

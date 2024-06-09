@@ -18,9 +18,43 @@
   function gtag() {
     dataLayer.push(arguments);
   }
+
+  // Initialize consent mode
+  gtag('consent', 'default', {
+    ad_storage: 'denied',
+    analytics_storage: 'denied',
+  });
+
+  // Function to update consent
+  function updateConsent(adConsent, analyticsConsent) {
+    gtag('consent', 'update', {
+      ad_storage: adConsent ? 'granted' : 'denied',
+      analytics_storage: analyticsConsent ? 'granted' : 'denied',
+    });
+  }
+
   gtag('js', new Date());
 
-  gtag('config', '{{ site.google_analytics }}');
+  gtag('config', '{{ site.google_analytics }}', { anonymize_ip: true });
+
+  // Placeholder for user consent interaction
+  document.addEventListener('DOMContentLoaded', function () {
+    var consentBanner = document.getElementById('consent-banner');
+    var acceptButton = document.getElementById('consent-accept');
+    var rejectButton = document.getElementById('consent-reject');
+
+    if (consentBanner) {
+      acceptButton.addEventListener('click', function () {
+        updateConsent(true, true);
+        consentBanner.style.display = 'none';
+      });
+
+      rejectButton.addEventListener('click', function () {
+        updateConsent(false, false);
+        consentBanner.style.display = 'none';
+      });
+    }
+  });
 </script>
 
 <!-- Navigation bar from _data/navigation.yml definition -->
@@ -38,3 +72,9 @@
     {% endif %} {% endfor %}
   </ul>
 </nav>
+
+<div id="consent-banner">
+  <p>I use cookies to optimize my website.</p>
+  <button id="consent-accept">Accept</button>
+  <button id="consent-reject">Reject</button>
+</div>
