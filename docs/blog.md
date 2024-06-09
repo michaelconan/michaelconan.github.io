@@ -7,7 +7,7 @@ description: 'Updates on our life, travels and work'
 ## Blog Posts
 Sharing about travel, life and projects! Just for fun and on no defined schedule.
 
-[_subscribe_](#subscribe){: target="_top" }
+[subscribe](#subscribe){: target="_top" }
 
 <div>
 {% for category in site.categories %}

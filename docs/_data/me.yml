@@ -1,4 +1,5 @@
 projects:
+  # Applied as GitHub repo tags, used to organize list of projects
   topics:
   - python
   - powerbi
@@ -8,6 +9,7 @@ projects:
   - mulesoft
   - salesforce
   - pages
+# Social / certification profiles
 profiles:
 - title: 'linkedin'
   id: 'michaelconan'
