@@ -3,6 +3,7 @@
 title: 'One Quarter Irish 🍀'
 description: 'Background and highlights from our recent move to Ireland'
 categories: life
+tags: ireland
 ---
 
 I'm headed back from my first few months in Ireland - here's how we got here, and what we've been up to!
