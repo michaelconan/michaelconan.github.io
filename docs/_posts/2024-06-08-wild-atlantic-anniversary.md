@@ -3,6 +3,7 @@
 title: 'Wild Atlantic Anniversary'
 description: 'Our trip around the Ireland to celebrate 2 years married'
 categories: life
+tags: ireland travel
 ---
 
 Marisa and I have been married 2 years, and together 10! We took a road trip around Ireland to celebrate.

@@ -5,9 +5,10 @@ description: 'Updates on our life, travels and work'
 ---
 
 ## Blog Posts
+
 Sharing about travel, life and projects! Just for fun and on no defined schedule.
 
-[subscribe](#subscribe){: target="_top" }
+Personal posts will be shared here, while work-specific articles will be posted on Substack. [Subscribe to either or both at the bottom of this page.](#subscribe){: target="_top" }
 
 <div>
 {% for category in site.categories %}
@@ -33,4 +34,8 @@ Sharing about travel, life and projects! Just for fun and on no defined schedule
 
 ### Subscribe
 
+Subscribe to personal posts (via email):
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfdIcwi-4-jpWPz4mZ2jnFxgVJ6rP2vkp-ZXjoBrSlkE03A9A/viewform?embedded=true" width="640" height="450" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+Subscribe to work-specific blog (via substack):
+<iframe src="https://consultthedata.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>

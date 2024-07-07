@@ -3,6 +3,7 @@
 title: 'Our Irish Life'
 description: "A bit about the life we've created in the months since moving to Dublin"
 categories: life
+tags: ireland
 ---
 
 Moving somewhere new is hard. Take a look inside the life we're creating in Dublin.
