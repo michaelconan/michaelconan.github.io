@@ -1,8 +1,8 @@
 ---
 # layout: post
-title: 'Wild Atlantic Anniversary'
+title: 'Wild Atlantic Anniversary 🌊'
 description: 'Our trip around the Ireland to celebrate 2 years married'
-categories: life
+categories: travel
 tags: ireland travel
 ---
 
@@ -24,8 +24,8 @@ This will be one of the longer posts as I'll break down the trip day-by-day.
 </div>
 <figure>
   <figcaption>Headed south to Cork to begin our trip</figcaption>
-  <img src="/assets/blog/rental-fiat.jpg" alt="Rental Fiat 500" style="width:30%;">
-  <img src="/assets/blog/rock-of-cashel.jpg" alt="Rock of Cashel" style="width:50%;">
+  <img src="/assets/blog/rental-fiat.jpg" alt="Rental Fiat 500" style="height:300px;">
+  <img src="/assets/blog/rock-of-cashel.jpg" alt="Rock of Cashel" style="height:300px;">
 </figure>
 
 ## Day 2: West Cork Peninsulas
@@ -38,8 +38,8 @@ This will be one of the longer posts as I'll break down the trip day-by-day.
 </div>
 <figure>
   <figcaption>Exploring the many "heads" of West Cork</figcaption>
-  <img src="/assets/blog/mizen-head.jpg" alt="Mizen Head Bridge" style="width:50%;">
-  <img src="/assets/blog/sheeps-head.jpg" alt="Sheep's Head Lighthouse" style="width:30%;">
+  <img src="/assets/blog/mizen-head.jpg" alt="Mizen Head Bridge" style="height:300px;">
+  <img src="/assets/blog/sheeps-head.jpg" alt="Sheep's Head Lighthouse" style="height:300px;">
 </figure>
 
 ## Day 3: Kerry and Skelligs
@@ -52,8 +52,8 @@ This will be one of the longer posts as I'll break down the trip day-by-day.
 </div>
 <figure>
   <figcaption>Touring the Skellig islands</figcaption>
-  <img src="/assets/blog/skellig-tour.jpg" alt="Skellig Boat Tour" style="width:30%;">
-  <img src="/assets/blog/skellig-michael.jpg" alt="Skellig Michael" style="width:30%;">
+  <img src="/assets/blog/skellig-tour.jpg" alt="Skellig Boat Tour" style="height:400px;">
+  <img src="/assets/blog/skellig-michael.jpg" alt="Skellig Michael" style="height:400px;">
 </figure>
 
 ## Day 4: Kerry to Clare
@@ -66,8 +66,8 @@ This will be one of the longer posts as I'll break down the trip day-by-day.
 </div>
 <figure>
   <figcaption>Driving up the coast and across the river to Clare</figcaption>
-  <img src="/assets/blog/tarbert-ferry.jpg" alt="Ferry to Clare" style="width:40%;">
-  <img src="/assets/blog/lahinch-coast.jpg" alt="Coast of Lahinch" style="width:40%;">
+  <img src="/assets/blog/tarbert-ferry.jpg" alt="Ferry to Clare" style="height:250px;">
+  <img src="/assets/blog/lahinch-coast.jpg" alt="Coast of Lahinch" style="height:250px;">
 </figure>
 
 ## Day 5: Aran Islands and Galway Anniversay
@@ -80,8 +80,8 @@ This will be one of the longer posts as I'll break down the trip day-by-day.
 </div>
 <figure>
   <figcaption>Trip to Inis Oírr for the morning</figcaption>
-  <img src="/assets/blog/doolin-ferry.jpg" alt="Doolin Ferry" style="width:50%;">
-  <img src="/assets/blog/inis-oirr.jpg" alt="Inis Oírr Shipwreck" style="width:30%;">
+  <img src="/assets/blog/doolin-ferry.jpg" alt="Doolin Ferry" style="height:300px;">
+  <img src="/assets/blog/inis-oirr.jpg" alt="Inis Oírr Shipwreck" style="height:300px;">
 </figure>
 
 ## Day 6: Connemara and Killary
@@ -94,8 +94,8 @@ This will be one of the longer posts as I'll break down the trip day-by-day.
 </div>
 <figure>
   <figcaption>Exploring North Galway and South Mayo</figcaption>
-  <img src="/assets/blog/killary-fjord.jpg" alt="Killary Fjord" style="width:40%;">
-  <img src="/assets/blog/doolough-valley.jpg" alt="Doolough Valley" style="width:40%;">
+  <img src="/assets/blog/killary-fjord.jpg" alt="Killary Fjord" style="height:250px;">
+  <img src="/assets/blog/doolough-valley.jpg" alt="Doolough Valley" style="height:250px;">
 </figure>
 
 ## Day 7: Croagh Patrick and Achill Island
@@ -108,8 +108,8 @@ This will be one of the longer posts as I'll break down the trip day-by-day.
 </div>
 <figure>
   <figcaption>Hiking up Croagh Patrick and exploring Downpatrick Head</figcaption>
-  <img src="/assets/blog/croagh-patrick.jpg" alt="Croagh Patrick" style="width:50%;">
-  <img src="/assets/blog/downpatrick-head.jpg" alt="Downpatrick Head" style="width:30%;">
+  <img src="/assets/blog/croagh-patrick.jpg" alt="Croagh Patrick" style="height:300px;">
+  <img src="/assets/blog/downpatrick-head.jpg" alt="Downpatrick Head" style="height:300px;">
 </figure>
 
 ## Day 8: Sliabh Liag to Donegal
@@ -122,8 +122,8 @@ This will be one of the longer posts as I'll break down the trip day-by-day.
 </div>
 <figure>
   <figcaption>South Donegal coast and Sliabh Liag</figcaption>
-  <img src="/assets/blog/muckross-head.jpg" alt="Muckross Head" style="width:30%;">
-  <img src="/assets/blog/sliabh-liag.jpg" alt="Sliabh Liag" style="width:50%;">
+  <img src="/assets/blog/muckross-head.jpg" alt="Muckross Head" style="height:300px;">
+  <img src="/assets/blog/sliabh-liag.jpg" alt="Sliabh Liag" style="height:300px;">
 </figure>
 
 ## Day 9: Donegal Heads and Derry
@@ -136,8 +136,8 @@ This will be one of the longer posts as I'll break down the trip day-by-day.
 </div>
 <figure>
   <figcaption>Northern coast of Donegal and Derry</figcaption>
-  <img src="/assets/blog/fanad-head.jpg" alt="Fanad Head Lighthouse" style="width:40%;">
-  <img src="/assets/blog/peace-bridge.jpg" alt="Derry Peace Bridge" style="width:40%;">
+  <img src="/assets/blog/fanad-head.jpg" alt="Fanad Head Lighthouse" style="height:250px;">
+  <img src="/assets/blog/peace-bridge.jpg" alt="Derry Peace Bridge" style="height:250px;">
 </figure>
 
 ## Heading Home

@@ -7,3 +7,5 @@ navigation:
   href: "/profile"
 - title: "Projects"
   href: "/projects"
+- title: "<s>G</s>"
+  href: "/g"
