@@ -47,7 +47,7 @@ Will
   <img src="/assets/blog/will-split-fail.jpg" alt="Will didn't split the G" style="height:300px;">
 </figure>
 
-## A few of ours
+## Some of ours
 
 Featuring my lovely wife
 
@@ -71,7 +71,7 @@ Abroad
   <figcaption>Amsterdam</figcaption>
 </figure>
 
-Some of ours
+Others
 
 <figure>
   <img src="/assets/blog/me-g3.jpg" alt="I split the G" style="height:300px;">
