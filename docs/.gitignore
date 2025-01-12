@@ -1,4 +1,10 @@
+# Build
 _site
+
+# Drafts
+_drafts
+
+# Cache data
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
