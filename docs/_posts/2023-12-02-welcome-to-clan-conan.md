@@ -1,6 +1,6 @@
 ---
 # layout: post
-title: 'Welcome to Clan Conan! 👋'
+title: '👋 Welcome to Clan Conan!'
 description: 'Introduction to my site and blog'
 categories: intro
 ---

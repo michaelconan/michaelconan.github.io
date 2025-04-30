@@ -1,6 +1,6 @@
 ---
 # layout: post
-title: 'One Quarter Irish 🍀'
+title: '🍀 One Quarter Irish'
 description: 'Background and highlights from our recent move to Ireland'
 categories: life
 tags: ireland

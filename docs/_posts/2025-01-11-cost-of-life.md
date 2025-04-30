@@ -1,6 +1,6 @@
 ---
 # layout: post
-title: 'Cost of Life 💰'
+title: '💰 Cost of Life'
 description: 'A bit about the financial decisions and costs of our life abroad'
 categories: life
 tags: ireland finance

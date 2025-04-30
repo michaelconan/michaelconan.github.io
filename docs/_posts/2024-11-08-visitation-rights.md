@@ -1,6 +1,6 @@
 ---
 # layout: post
-title: 'Visitation Rights 🧳'
+title: '🧳 Visitation Rights'
 description: 'Showing our family and friends what our life in Dublin is all about'
 categories: life
 tags: ireland friends family

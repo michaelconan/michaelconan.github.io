@@ -1,6 +1,6 @@
 ---
 # layout: post
-title: 'Distance and Loss ⛰️'
+title: '⛰️ Distance and Loss'
 description: 'The challenges of being away from those people and activities that you love'
 categories: travel
 tags: travel family skiing

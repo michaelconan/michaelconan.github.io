@@ -1,6 +1,6 @@
 ---
 # layout: post
-title: 'Wild Atlantic Anniversary 🌊'
+title: '🌊 Wild Atlantic Anniversary'
 description: 'Our trip around the Ireland to celebrate 2 years married'
 categories: travel
 tags: ireland travel
