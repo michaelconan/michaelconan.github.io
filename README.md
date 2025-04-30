@@ -10,6 +10,7 @@ Reminders to help with build and/or guide others.
 
 - [Navigation guidance](https://planetjekyll.github.io/snippets/nav-with-data) - adapted to horizontal header bar
 - [Github metadata usage](https://jekyll.github.io/github-metadata/site.github/)
+  - To use this locally, set `JEKYLL_GITHUB_TOKEN` variable with a Personal Access Token
 
 #### Local Testing
 
