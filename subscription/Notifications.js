@@ -1,3 +1,6 @@
+// Global definition of a day in milliseconds for date functions
+const ADAY = 1000 * 60 * 60 * 24;
+
 /**
  * Function to check for new blog entries via RSS feed and send
  * email notifications to active, approved subscribers with the
@@ -10,10 +13,12 @@ function sendNotifications() {
   const lastCheck = scriptProperties.getProperty('last_check_date');
   const lastCheckDate = new Date(lastCheck);
 
+  // Set check date to prior day as script runs daily just before 1AM
+  const checkDate = new Date(new Date().getTime() - ADAY);
+
   // Get RSS feed and set namespace
-  const checkDate = new Date();
   const response = UrlFetchApp.fetch(
-    scriptProperties.getProperty('rss_feed_url')
+    scriptProperties.getProperty('rss_feed_url'),
   );
   const feed = XmlService.parse(response.getContentText());
   const atomNS = XmlService.getNamespace('http://www.w3.org/2005/Atom');
@@ -27,7 +32,7 @@ function sendNotifications() {
   for (let i = 0; i < entries.length; i++) {
     const entry = entries[i];
     const publishedDate = new Date(
-      entry.getChild('published', atomNS).getText()
+      entry.getChild('published', atomNS).getText(),
     );
 
     // Check if the entry is newer than the last date
