@@ -6,9 +6,9 @@ categories: life
 tags: ireland
 ---
 
-Most expatriates will tell you that befriending cultural natives can be a particular challenge.
+Befriending cultural natives can be a particular challenge for expatriates, but we have managed to find community.
 
-We have luckily built a community among the Irish due in large part to our efforts to embrace the culture and the friendly and welcoming nature of Irish people. The process took some time, required us to explore different activities and groups, and pushed us outside of the comfort zone we had established over an entire life lived in one small corner of the world. It is amazing now to see the relationships we have developed which we hope will be lasting, lifelong friendships.
+We have built a community among the Irish due in large part to our efforts to embrace the culture and the friendly and welcoming nature of Irish people. The process took some time, required us to explore different activities and groups, and pushed us outside of the comfort zone we had established over an entire life lived in one small corner of the world. It is amazing now to see the relationships we have developed which we hope will be lasting, lifelong friendships.
 
 ## Embracing Culture
 
