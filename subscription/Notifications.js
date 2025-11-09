@@ -9,12 +9,11 @@ const ADAY = 1000 * 60 * 60 * 24;
  */
 function sendNotifications() {
   // Get last timestamp watermark
+  const BLOG_PROPERTY ='last_blog_date';
   const scriptProperties = PropertiesService.getScriptProperties();
-  const lastCheck = scriptProperties.getProperty('last_check_date');
-  const lastCheckDate = new Date(lastCheck);
-
-  // Set check date to prior day as script runs daily just before 1AM
-  const checkDate = new Date(new Date().getTime() - ADAY);
+  const lastBlog = scriptProperties.getProperty(BLOG_PROPERTY);
+  const lastBlogDate = new Date(lastBlog);
+  let newBlogDate;
 
   // Get RSS feed and set namespace
   const response = UrlFetchApp.fetch(
@@ -36,7 +35,7 @@ function sendNotifications() {
     );
 
     // Check if the entry is newer than the last date
-    if (publishedDate > lastCheckDate) {
+    if (publishedDate > lastBlogDate) {
       const title = entry.getChild('title', atomNS).getText();
       const summary = entry.getChild('summary', atomNS).getText();
       const link = entry
@@ -50,6 +49,10 @@ function sendNotifications() {
         link: link,
         publishedDate: publishedDate,
       });
+
+      if (!newBlogDate || publishedDate > newBlogDate) {
+        newBlogDate = publishedDate;
+      }
     }
   }
 
@@ -99,5 +102,7 @@ function sendNotifications() {
   }
 
   // Store check date for next run
-  scriptProperties.setProperty('last_check_date', checkDate.toDateString());
+  if (newBlogDate) {
+    scriptProperties.setProperty(BLOG_PROPERTY, newBlogDate.toDateString());
+  }
 }
