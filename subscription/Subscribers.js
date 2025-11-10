@@ -88,41 +88,6 @@ function getActiveSubscribers() {
 }
 
 /**
- * Test function for form data update
- */
-function testFormSubmit() {
-  // Connect to linked form
-  const ss = SpreadsheetApp.getActive();
-  const form = FormApp.openByUrl(ss.getFormUrl());
-
-  // Get first timestamp value
-  const formTimestamp = form.getResponses()[1].getTimestamp();
-  const timestamp = ss
-    .getSheetByName('Form responses 1')
-    .getDataRange()
-    .getValues()
-    .slice(1)[0][0];
-  const dateString = Utilities.formatDate(
-    timestamp,
-    'Europe/Dublin',
-    'dd/MM/yyyy HH:mm:ss',
-  );
-  const formDateString = Utilities.formatDate(
-    formTimestamp,
-    'Europe/Dublin',
-    'dd/MM/yyyy HH:mm:ss',
-  );
-  console.log(dateString, formDateString);
-
-  // Run function with test value
-  onFormSubmit({
-    namedValues: {
-      Timestamp: [dateString],
-    },
-  });
-}
-
-/**
  * Helper function to parse European format date
  *  following the convention dd/MM/yyyy HH:mm:ss
  * @param {string} dateString - string in specified format
