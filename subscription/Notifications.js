@@ -22,41 +22,6 @@ function sendNotifications() {
   const lastBlogDate = new Date(lastBlog);
   const blogResults = getNewBlogs(lastBlogDate);
 
-  // Send an email if there are new entries
-  const newEntries = blogResults.entries;
-  if (newEntries.length > 0) {
-    // Get current subscribers
-    const subscribers = getActiveSubscribers();
-    console.log(subscribers.length + ' subscribers to notify');
-    if (subscribers.length) {
-      sendMessages(blogResults.title, newEntries, subscribers);
-    }
-  } else {
-    console.log('No new blog entries found.');
-  }
-
-  // Store check date for next run
-  if (blogResults.latestDate) {
-    scriptProperties.setProperty(blogPropertyName, blogResults.latestDate.toDateString());
-  }
-}
-
-
-/**
- * Get list of blog entries based on latest blog date
- *
- * @param {Date} lastBlogDate - last blog, cached in properties
- */
-function getNewBlogs(lastBlogDate) {
-  const scriptProperties = getScriptProperties();
-  const oneDay = 24 * 60 * 60 * 1000;
-  const lastBlogDateTrunc = new Date(
-    lastBlogDate.getFullYear(),
-    lastBlogDate.getMonth(),
-    lastBlogDate.getDate(),
-  );
-  let newBlogDate;
-
   // Get RSS feed and set namespace
   const response = UrlFetchApp.fetch(
     scriptProperties.getProperty('rss_feed_url'),
@@ -97,32 +62,18 @@ function getNewBlogs(lastBlogDate) {
         link: link,
         publishedDate: publishedDate,
       });
-
-      // Check if log is new or later than the previous
-      if (!newBlogDate || publishedDateTrunc.getTime() > newBlogDate.getTime()) {
-        newBlogDate = publishedDateTrunc;
-      }
     }
   }
 
-  return {
-    title: blogTitle,
-    entries: newEntries,
-    latestDate: newBlogDate,
-  }
-}
-
-/**
- * Format and send message to subscriber list
- *
- * @param {string} blogTitle - title of blog entry
- * @param {object[]} entries - new blog entry details
- * @param {string[]} subscribers - emails to send blog alerts
- */
-function sendMessages(blogTitle, entries, subscribers) {
-  // Structure email details
-  const subject = `New ${blogTitle} blog`;
-  let body = `<h4>New entries for ${blogTitle}:</h4>`;
+  // Send an email if there are new entries
+  if (newEntries.length > 0) {
+    // Get current subscribers
+    const subcribers = getActiveSubscribers();
+    console.log(subcribers.length + ' subscribers to notify');
+    if (subcribers.length) {
+      // Structure email details
+      const subject = `New ${blogTitle} blog`;
+      let body = `<h4>New entries for ${blogTitle}:</h4>`;
 
   // Add blogs to email body
   for (let j = 0; j < entries.length; j++) {
@@ -133,35 +84,29 @@ function sendMessages(blogTitle, entries, subscribers) {
   }
   console.log('Generated email content');
 
-  // Send to each subscriber individually with edit link
-  for (const subscriber of subscribers) {
-    // Check quota remaining
-    if (MailApp.getRemainingDailyQuota() > 0) {
-      // Add form edit link to email body
-      const subscriberBody =
-        body +
-        `<p>Note:<br/>To update subscription, edit the form <a href="${subscriber[2]}">here</a>.`;
-      // Send email to subscriber
-      MailApp.sendEmail({
-        to: subscriber[3],
-        subject: subject,
-        htmlBody: subscriberBody,
-        name: blogTitle,
-      });
-      console.log('Sent to: ' + subscriber[3]);
-    } else {
-      console.warn('Quota exceeded for day.');
-      return;
+      // Send to each subscriber individually with edit link
+      for (const subcriber of subcribers) {
+        // Check quota remaining
+        if (MailApp.getRemainingDailyQuota() > 0) {
+          // Add form edit link to email body
+          const subscriberBody =
+            body +
+            `<p>Note:<br/>To update subscription, edit the form <a href="${subcriber[2]}">here</a>.`;
+          // Send email to subscriber
+          MailApp.sendEmail({
+            to: subcriber[3],
+            subject: subject,
+            htmlBody: subscriberBody,
+            name: blogTitle,
+          });
+          console.log('Sent to: ' + subcriber[3]);
+        } else {
+          console.warn('Quota exceeded for day.');
+          return;
+        }
+      }
     }
+  } else {
+    console.log('No new blog entries found.');
   }
-}
-
-// Export for testing
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = {
-    getScriptProperties,
-    getNewBlogs,
-    sendMessages,
-    sendNotifications,
-  };
 }
