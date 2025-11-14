@@ -29,3 +29,20 @@ clean: ## Clean the Jekyll build cache
 .PHONY: install
 install: ## Install Jekyll dependencies
 	cd docs && bundle install
+
+.PHONY: test
+test: ## Run Apps Script unit tests
+	cd subscription && npm test
+
+.PHONY: test-watch
+test-watch: ## Run Apps Script tests in watch mode
+	cd subscription && npm run test:watch
+
+.PHONY: test-coverage
+test-coverage: ## Run Apps Script tests with coverage report
+	cd subscription && npm run test:coverage
+
+.PHONY: deps-install
+deps-install: ## Install all project dependencies
+	cd docs && bundle install
+	cd subscription && npm install
