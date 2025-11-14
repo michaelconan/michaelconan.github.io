@@ -36,7 +36,7 @@ function sendNotifications() {
   }
 
   // Store check date for next run
-  if (newBlogDate) {
+  if (blogResults.latestDate) {
     scriptProperties.setProperty(blogPropertyName, blogResults.latestDate.toDateString());
   }
 }
@@ -44,7 +44,7 @@ function sendNotifications() {
 
 /**
  * Get list of blog entries based on latest blog date
- * 
+ *
  * @param {Date} lastBlogDate - last blog, cached in properties
  */
 function getNewBlogs(lastBlogDate) {
@@ -114,7 +114,7 @@ function getNewBlogs(lastBlogDate) {
 
 /**
  * Format and send message to subscriber list
- * 
+ *
  * @param {string} blogTitle - title of blog entry
  * @param {object[]} entries - new blog entry details
  * @param {string[]} subscribers - emails to send blog alerts
@@ -154,4 +154,14 @@ function sendMessages(blogTitle, entries, subscribers) {
       return;
     }
   }
+}
+
+// Export for testing
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = {
+    getScriptProperties,
+    getNewBlogs,
+    sendMessages,
+    sendNotifications,
+  };
 }

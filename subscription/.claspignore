@@ -1,0 +1,6 @@
+# NPM and Node.js dependencies
+node_modules/**
+
+# Jest test files and coverage
+__tests__/**
+jest.config.js

@@ -1,0 +1,21 @@
+{
+  "name": "clan-conan-subscription",
+  "version": "1.0.0",
+  "description": "Unit tests for Clan Conan subscription Apps Script",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "apps-script",
+    "testing",
+    "jest"
+  ],
+  "author": "Michael Conan",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

@@ -102,3 +102,12 @@ function parseEuroDate_(dateString) {
     `${dateParts[1]}-${dateParts[0]}-${dateParts[2]} ${dateTime[1]}`,
   );
 }
+
+// Export for testing
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = {
+    getActiveSubscribers,
+    parseEuroDate_,
+    onFormSubmit,
+  };
+}
