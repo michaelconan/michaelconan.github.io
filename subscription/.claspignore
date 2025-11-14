@@ -3,4 +3,5 @@ node_modules/**
 
 # Jest test files and coverage
 __tests__/**
+coverage/**
 jest.config.js
