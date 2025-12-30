@@ -3,7 +3,7 @@
 title: '💰 Cost of Life'
 description: 'A bit about the financial decisions and costs of our life abroad'
 categories: life
-tags: ireland finance
+tags: ireland dublin finance
 ---
 
 We did not move to Ireland for the money, however, we expected it to be much harder than it is.

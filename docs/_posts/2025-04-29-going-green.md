@@ -3,7 +3,7 @@
 title: '🟢 Going Green'
 description: 'Embracing the culture and people of our temporary island home'
 categories: life
-tags: ireland
+tags: ireland dublin heritage church sports
 ---
 
 Befriending cultural natives can be a particular challenge for expatriates, but we have managed to find community.

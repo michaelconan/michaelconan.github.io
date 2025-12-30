@@ -3,12 +3,12 @@
 title: '🔒 Digital Toolbox: Security'
 description: 'Using technology and behaviours to improve the security of my digital footprint'
 categories: tech
-tags: security
+tags: tech security
 ---
 
 I spend my days advising companies on their use of technology and data, and I have increasingly applied similar principles in my personal life.
 
-Since I started this blog over 18 months ago, my posts have focused on our lives in Ireland and travel around Europe. Separately, I I have written about data and AI on my work blog, which you are welcome to check out on [Substack](https://consultthedata.substack.com/). This post will be different from anything I have shared before, focused instead on personal technology use and online security.
+Since I started this blog over 18 months ago, my posts have focused on our lives in Ireland and travel around Europe. Separately, I have written about data and AI on my work blog, which you are welcome to check out on [Substack](https://consultthedata.substack.com/). This post will be different from anything I have shared before, focused instead on personal technology use and online security.
 
 With a day job consulting for companies on technology and data, I try to find ways to implement the same advice in my own life. We advise businesses daily on using systems and information for two general purposes:
 
@@ -58,4 +58,4 @@ In addition to securing my accounts, I use a VPN to improve security and privacy
 
 ## Other Tools
 
-I hope this review of my security toolbox and playbook has been helpful and intereesting. In a future post I will cover how I use other digital tools to help track and achieve goals in my personal life!
+I hope this review of my security toolbox and playbook has been helpful and interesting. In a future post I will cover how I use other digital tools to help track and achieve goals in my personal life!
