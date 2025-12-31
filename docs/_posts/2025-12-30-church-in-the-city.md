@@ -22,13 +22,28 @@ The church is quite young, both in its history and its congregation. It was foun
 
 On a few occasions I have been able to spend extended time with the church community. Each year the church holds an annual retreat, renting out a large manor house for a weekend and bringing in an external speaker. We learn, sing, and pray together, and we also eat, play games, and spend time getting to know one another; the weekend I attended last year was an amazing opportunity to build community, make friends, and grow together.
 
+<figure>
+  <img src="/assets/blog/city-weekend-away.jpg" alt="City Church Weekend Away" style="width:50%;">
+  <figcaption>Weekend at Avoca Manner with City Church</figcaption>
+</figure>
+
 For the past two years I have also attended Kinfire, one of the few Christian festivals in the Republic of Ireland. The festival takes over a college in Kilkenny town, drawing around 1,000 people from Ireland and abroad for workshops, community, and teaching, and I volunteered on the youth team as I did for many years at my home church in Oregon.
+
+<figure>
+  <img src="/assets/blog/kinfire-youth-team.jpg" alt="Kinfire Festival" style="width:50%;">
+  <figcaption>Kinfire Festival youth team</figcaption>
+</figure>
 
 ## Building Community
 
 Religion, particularly outside of the Catholic church, has not been common in Ireland for a few decades. Our church is primarily composed of expatriates from around the world (England, Africa, South America, and the United States like us) alongside a smaller number from the Republic and the North, where church has not faded as much. Being a church of immigrants brings challenges, from the transience of study programmes and work rotations to the work of integrating different cultures, but we have come to love the diversity of the church and to accept its transient nature, just as others will one day accept our own departure.
 
 City Church is clear that church is more than a Sunday service with music, teaching, and prayer. It is also the community that forms in small groups, member meetings, and midweek prayer and worship nights. Often it is even more about the unstructured moments: lunch after church, a pub quiz on a social night, or playing ultimate frisbee in the pouring rain.
+
+<figure>
+  <img src="/assets/blog/community-group-pizza.jpg" alt="Community Group Pizza" style="width:30%;">
+  <figcaption>Community group pizza night</figcaption>
+</figure>
 
 ## Looking Ahead
 
