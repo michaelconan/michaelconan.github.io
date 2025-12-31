@@ -3,7 +3,7 @@
 title: '⛰️ Distance and Loss'
 description: 'The challenges of being away from those people and activities that you love'
 categories: travel
-tags: travel family skiing
+tags: europe travel sports
 ---
 
 We're nearing the 6 month mark living in Ireland. The experience is grand, but reality has begun to sink in.

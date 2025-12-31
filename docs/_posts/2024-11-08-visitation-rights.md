@@ -3,7 +3,7 @@
 title: '🧳 Visitation Rights'
 description: 'Showing our family and friends what our life in Dublin is all about'
 categories: life
-tags: ireland friends family
+tags: ireland dublin travel running sports
 ---
 
 We rented a place with an extra bedroom for visitors, and have been amazed by the use it has already had!

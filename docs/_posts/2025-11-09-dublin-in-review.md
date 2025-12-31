@@ -3,7 +3,7 @@
 title: '🇮🇪 Dublin in Review'
 description: 'Reflecting on cultural contrasts, challenges, and experiences as expats in Dublin.'
 categories: life
-tags: ireland
+tags: ireland dublin finance
 ---
 We moved halfway across the world to experience something new and different. While some aspects have been wonderful, others have left something to be desired.
 

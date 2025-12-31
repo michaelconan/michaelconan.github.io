@@ -1,9 +1,9 @@
 ---
 # layout: post
 title: '🍺 Our Irish Life'
-description: "A bit about the life we have created in the months since moving to Dublin"
+description: 'A bit about the life we have created in the months since moving to Dublin'
 categories: life
-tags: ireland
+tags: ireland dublin pwc church sports
 ---
 
 Moving somewhere new is hard. Take a look inside the life we're creating in Dublin.

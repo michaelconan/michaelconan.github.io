@@ -3,7 +3,7 @@
 title: '🗺️ Gotta See It All'
 description: 'Checking off countries, counties, and filling out the map'
 categories: travel
-tags: ireland europe travel
+tags: ireland europe travel running
 ---
 
 We moved to Ireland in large part to travel, and are trying to visit every Irish county and many European countries.
