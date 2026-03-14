@@ -16,19 +16,16 @@
 
 {% include google-analytics.html %}
 
-<!-- Navigation bar from _data/navigation.yml definition -->
-<nav class="page-navigation" aria-label="Page navigation">
+<!-- Navigation bar from _data/content.yml definition -->
+<nav class="page-navigation" aria-label="Site navigation">
   <ul>
-    {% for nav in site.data.content.navigation %} {% if nav.title == page.title
-    or (nav.title == "Home" and page.url == "/") %}
-    <li class="active">
-      <a href="{{ nav.url }}" target="_top">{{ nav.title }}</a>
-    </li>
-    {% else %}
-    <li>
-      <a href="{{ site.url }}{{ nav.href }}" target="_top">{{ nav.title }}</a>
-    </li>
-    {% endif %} {% endfor %}
+    {% for nav in site.data.content.navigation %}
+      {% if nav.title == page.title or (nav.title == "Home" and page.url == "/") %}
+        <li class="active"><a href="{{ nav.href }}" target="_top">{{ nav.title }}</a></li>
+      {% else %}
+        <li><a href="{{ nav.href }}" target="_top">{{ nav.title }}</a></li>
+      {% endif %}
+    {% endfor %}
   </ul>
 </nav>
 
