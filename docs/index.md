@@ -5,10 +5,14 @@ title: Clan Conan
 
 ## About Me
 
-I'm Michael Conan - born and raised in Portland, Oregon and now living in Dublin, Ireland with my wife Marisa.
+I'm Michael Conan — born and raised in Portland, Oregon and now living in Dublin, Ireland with my wife Marisa.
 
-I currently work as a technology consultant for PricewaterhouseCoopers (PwC) in the Dublin Data, Analytics, and AI practice and Marisa recently worked at Intel and Gartner in Sales Operations roles.
+I work as a technology consultant for PricewaterhouseCoopers (PwC) in the Dublin Data, Analytics, and AI practice. Marisa has worked in Sales Operations roles at Intel and Gartner.
 
-Keep up with our life and travels by subscribing to my blog!
+This site is where we share updates on life, travel, and the occasional tech deep-dive.
 
-[Blog](/blog){: .my-button target="_top"}
+<div class="quick-links">
+  <a href="/blog" class="my-button" target="_top">Blog</a>
+  <a href="/profile" class="my-button my-button-secondary" target="_top">Profile</a>
+  <a href="/projects" class="my-button my-button-secondary" target="_top">Projects</a>
+</div>

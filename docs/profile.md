@@ -24,41 +24,50 @@ The largest projects I have worked on have been cloud data platform implementati
 
 Earlier in my consulting career I delivered many projects leveraging process automation technologies to streamline processes, primarily in the finance space.
 
-### Profile Links
+## Skills and Technologies
 
-Check out my other profiles and certifications:
+**Languages**
 
+<div class="skill-tags">
+  <span class="skill-tag">Python</span>
+  <span class="skill-tag">JavaScript</span>
+  <span class="skill-tag">SQL</span>
+  <span class="skill-tag">RPA</span>
+</div>
+
+**Cloud & Data Engineering**
+
+<div class="skill-tags">
+  <span class="skill-tag">Microsoft Azure</span>
+  <span class="skill-tag">Google Cloud Platform</span>
+  <span class="skill-tag">Databricks</span>
+  <span class="skill-tag">Snowflake</span>
+  <span class="skill-tag">SQL Server</span>
+</div>
+
+**Automation**
+
+<div class="skill-tags">
+  <span class="skill-tag">Google Apps Script</span>
+  <span class="skill-tag">UiPath</span>
+  <span class="skill-tag">Microsoft Power Automate</span>
+</div>
+
+**Analytics**
+
+<div class="skill-tags">
+  <span class="skill-tag">Alteryx</span>
+  <span class="skill-tag">Microsoft Power BI</span>
+  <span class="skill-tag">Tableau</span>
+  <span class="skill-tag">Microsoft Excel</span>
+</div>
+
+## Profiles & Certifications
+
+<div class="profile-icons">
 {% for entry in site.data.me.profiles %}
-  <div class="profile-icon">
-  <a href="{{ entry.href }}{{ entry.id }}" title="{{ entry.title }}">
+  <a class="profile-icon" href="{{ entry.href }}{{ entry.id }}" title="{{ entry.title }}" target="_blank" rel="noopener">
     <i class="{{ entry.icon }}"></i>
   </a>
-  </div>
 {% endfor %}
-
-### Skills and Technologies
-
-An quick list of some things I've learned through my career and education.
-
-- Languages
-  - Python
-  - JavaScript
-  - SQL
-  - Robotic Process Automation (RPA)
-- Technologies
-  - Cloud Computing
-    - Microsoft Azure
-    - Google Cloud Platform
-  - Data Engineering
-    - Databricks
-    - Snowflake
-    - SQL Server
-  - Automation
-    - Google Apps Script
-    - UiPath
-    - Microsoft Power Automate
-  - Analytics
-    - Alteryx
-    - Microsoft Power BI
-    - Tableau
-    - Microsoft Excel
+</div>

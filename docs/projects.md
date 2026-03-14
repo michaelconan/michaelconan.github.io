@@ -5,7 +5,10 @@ description: 'Summary of programming work I have completed and published'
 ---
 
 ## Projects
-Programming projects developed for personal productivity, training, or generic corporate tasks.
+
+Open-source projects developed for personal productivity, skills training, and reusable corporate tooling. Organized by technology.
+
+View all on [GitHub](https://github.com/michaelconan){: target="_blank" }.
 
 {% for topic in site.data.me.projects.topics %}
 #### {{ topic }}
