@@ -5,6 +5,7 @@ description: 'Discovering community, belonging, and growth at City Church in mod
 categories: life
 tags: ireland dublin church
 ---
+
 Ireland has a rich history of faith, which made it all the more surprising to find our church community in a mall cinema.
 
 We stumbled into City Church Dublin with little planning, but it has become one of the defining parts of our life in Dublin.

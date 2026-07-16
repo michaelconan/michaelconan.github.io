@@ -5,6 +5,7 @@ description: 'Reflecting on cultural contrasts, challenges, and experiences as e
 categories: life
 tags: ireland dublin finance
 ---
+
 We moved halfway across the world to experience something new and different. While some aspects have been wonderful, others have left something to be desired.
 
 Both Marisa and I were born and raised in the Pacific Northwest in the United States. Aside from a brief period studying in Europe before graduating from Oregon State, we had never lived outside the U.S. We have, however, traveled throughout the country and noticed many cultural and lifestyle differences. Despite these experiences, moving to a different country on a long-term basis—even within the Western world—has revealed significantly more differences in culture, lifestyle, and assumptions than we expected.
