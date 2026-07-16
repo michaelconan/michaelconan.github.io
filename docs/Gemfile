@@ -24,4 +24,4 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "webrick", "~> 1.8"
 
 # Explicitly specify latest Nokogiri version to resolve CVEs
-gem "nokogiri", "~> 1.19.1"
+gem "nokogiri", "~> 1.19.4"
