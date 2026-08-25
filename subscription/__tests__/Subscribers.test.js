@@ -96,7 +96,14 @@ describe('Subscribers.js', () => {
           getValues: jest.fn(() => [
             ['ID', 'Timestamp', 'URL', 'Email', 'Subscription', 'Approved'],
             ['1', new Date(), 'http://edit1', 'user1@example.com', 'Yes', true],
-            ['2', new Date(), 'http://edit2', 'user2@example.com', 'Yes', false],
+            [
+              '2',
+              new Date(),
+              'http://edit2',
+              'user2@example.com',
+              'Yes',
+              false,
+            ],
             ['3', new Date(), 'http://edit3', 'user3@example.com', 'Yes', true],
           ]),
         })),

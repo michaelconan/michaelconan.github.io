@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "lint": "prettier --check \"**/*.js\""
   },
   "keywords": [
     "apps-script",
@@ -16,6 +17,7 @@
   "author": "Michael Conan",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^30.4.2"
+    "jest": "^30.4.2",
+    "prettier": "^3.9.6"
   }
 }
