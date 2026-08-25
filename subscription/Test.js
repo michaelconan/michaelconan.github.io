@@ -43,9 +43,10 @@ function testNewBlogs() {
   // Retrieve blog data
   const blogResults = getNewBlogs(testDate);
 
-  // Check 
-  const novBlog = blogResults.entries.filter(
-    (e) => e.publishedDate.toISOString().startsWith('2025-11-09'));
+  // Check
+  const novBlog = blogResults.entries.filter((e) =>
+    e.publishedDate.toISOString().startsWith('2025-11-09'),
+  );
   if (!novBlog.length) {
     throw 'November blog missing from results';
   }
