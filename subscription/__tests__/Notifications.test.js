@@ -38,7 +38,11 @@ global.console = {
 };
 
 // Import the functions to test
-const { getScriptProperties, getNewBlogs, sendMessages } = require('../Notifications.js');
+const {
+  getScriptProperties,
+  getNewBlogs,
+  sendMessages,
+} = require('../Notifications.js');
 
 describe('Notifications.js', () => {
   beforeEach(() => {
@@ -113,7 +117,9 @@ describe('Notifications.js', () => {
       });
 
       mockXmlService.getNamespace.mockReturnValue(mockAtomNS);
-      mockPropertiesService.getProperty.mockReturnValue('http://example.com/feed');
+      mockPropertiesService.getProperty.mockReturnValue(
+        'http://example.com/feed',
+      );
       mockUrlFetchApp.fetch.mockReturnValue({
         getContentText: jest.fn(() => '<feed></feed>'),
       });
@@ -162,7 +168,9 @@ describe('Notifications.js', () => {
       });
 
       mockXmlService.getNamespace.mockReturnValue(mockAtomNS);
-      mockPropertiesService.getProperty.mockReturnValue('http://example.com/feed');
+      mockPropertiesService.getProperty.mockReturnValue(
+        'http://example.com/feed',
+      );
       mockUrlFetchApp.fetch.mockReturnValue({
         getContentText: jest.fn(() => '<feed></feed>'),
       });
@@ -197,7 +205,7 @@ describe('Notifications.js', () => {
         expect.objectContaining({
           to: 'user1@example.com',
           subject: 'New My Blog blog',
-        })
+        }),
       );
     });
 
@@ -206,7 +214,9 @@ describe('Notifications.js', () => {
 
       const blogTitle = 'My Blog';
       const entries = [];
-      const subscribers = [['1', new Date(), 'http://edit1', 'user1@example.com']];
+      const subscribers = [
+        ['1', new Date(), 'http://edit1', 'user1@example.com'],
+      ];
 
       sendMessages(blogTitle, entries, subscribers);
 
@@ -215,7 +225,9 @@ describe('Notifications.js', () => {
 
     it('should include edit URL in email body', () => {
       mockMailApp.getRemainingDailyQuota.mockReturnValue(100);
-      mockPropertiesService.getProperty.mockReturnValue('http://example.com/feed');
+      mockPropertiesService.getProperty.mockReturnValue(
+        'http://example.com/feed',
+      );
 
       const blogTitle = 'My Blog';
       const entries = [];

@@ -16,7 +16,7 @@ function getScriptProperties() {
  */
 function sendNotifications() {
   // Get last timestamp watermark
-  const blogPropertyName ='last_blog_date';
+  const blogPropertyName = 'last_blog_date';
   const scriptProperties = getScriptProperties();
   const lastBlog = scriptProperties.getProperty(blogPropertyName);
   const lastBlogDate = new Date(lastBlog);
@@ -37,10 +37,12 @@ function sendNotifications() {
 
   // Store check date for next run
   if (blogResults.latestDate) {
-    scriptProperties.setProperty(blogPropertyName, blogResults.latestDate.toDateString());
+    scriptProperties.setProperty(
+      blogPropertyName,
+      blogResults.latestDate.toDateString(),
+    );
   }
 }
-
 
 /**
  * Get list of blog entries based on latest blog date
@@ -82,7 +84,8 @@ function getNewBlogs(lastBlogDate) {
     );
 
     // Check if the entry is newer than the last date
-    const isNew = publishedDateTrunc.getTime() - lastBlogDateTrunc.getTime() >= oneDay;
+    const isNew =
+      publishedDateTrunc.getTime() - lastBlogDateTrunc.getTime() >= oneDay;
     if (isNew) {
       const title = entry.getChild('title', atomNS).getText();
       const summary = entry.getChild('summary', atomNS).getText();
@@ -99,7 +102,10 @@ function getNewBlogs(lastBlogDate) {
       });
 
       // Check if log is new or later than the previous
-      if (!newBlogDate || publishedDateTrunc.getTime() > newBlogDate.getTime()) {
+      if (
+        !newBlogDate ||
+        publishedDateTrunc.getTime() > newBlogDate.getTime()
+      ) {
         newBlogDate = publishedDateTrunc;
       }
     }
@@ -109,9 +115,8 @@ function getNewBlogs(lastBlogDate) {
     title: blogTitle,
     entries: newEntries,
     latestDate: newBlogDate,
-  }
+  };
 }
-
 
 /**
  * Format and send message to subscriber list
